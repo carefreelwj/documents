@@ -32,7 +32,7 @@ jobs:
       - name: Deploy documentations
         uses: peaceiris/actions-gh-pages@v3
         with:
-          publish_dir: ./source/docs/.vuepress/dist
+          publish_dir: ./docs/.vuepress/dist
           github_token: ${{ secrets.KEEP_DOCS_DEPLOY }}
           user_name: ${{ secrets.MY_USER_NAME }}
           user_email: ${{ secrets.MY_USER_EMAIL }}
