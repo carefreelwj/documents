@@ -4,7 +4,7 @@ module.exports = {
     head: [
         ['link', {rel: 'icon', href: '/assets/images/keep-logo.svg'}],
     ],
-    base: '/docs/',  // 不在网站根域名下，需要指定该项
+    // base: '/docs/',  // 如果编译后的静态文件部署不在网站根域名下，需要指定该项
     serviceWorker: false,
     locales: {
         '/': {
