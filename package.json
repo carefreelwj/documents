@@ -1,11 +1,11 @@
 {
   "name": "hexo-theme-keep-documents",
   "version": "3.4.1",
-  "description": "hexo-theme-keep documents",
+  "description": "hexo theme keep documents",
   "homepage": "https://github.com/theme-keep/documents",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "repository": {
     "type": "git",
