@@ -1,0 +1,24 @@
+{
+  "name": "hexo-theme-keep-documents",
+  "version": "1.0.0",
+  "description": "hexo-theme-keep documents",
+  "homepage": "https://github.com/theme-keep/documents",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theme-keep/documents"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-theme-keep",
+    "documents"
+  ],
+  "author": "XPoet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theme-keep/documents/issues"
+  }
+}
