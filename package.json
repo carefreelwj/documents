@@ -1,6 +1,6 @@
 {
   "name": "hexo-theme-keep-documents",
-  "version": "1.0.0",
+  "version": "3.4.1",
   "description": "hexo-theme-keep documents",
   "homepage": "https://github.com/theme-keep/documents",
   "scripts": {
@@ -20,5 +20,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/theme-keep/documents/issues"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1"
   }
 }
