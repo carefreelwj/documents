@@ -24,8 +24,7 @@ module.exports = {
         editLinks: true,
         // 文档仓库和项目本身不在一个仓库，需要指定该项
         docsRepo: 'https://github.com/theme-keep/documents',
-
-        docsDir: '/src',         // 文档不是放在仓库的根目录下，需要指定该项
+        docsDir: 'src',          // 文档不是放在仓库的根目录下，需要指定该项
         docsBranch: 'master',    // 文档源文件（未构建的）所在的分支
         sidebarDepth: 3,
         locales: {

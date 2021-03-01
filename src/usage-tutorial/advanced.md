@@ -107,12 +107,13 @@ sticky: 999
 
 ## 友链样式
 
-Keep 主题对友链页面进行了样式优化，你只需按如下教程，便可得到漂亮的友链列表，如下图。
+Keep 主题对友链（links）页面进行了样式优化，你只需按如下教程，便可得到漂亮的友链列表，如下图。
 
 ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.o27c1lf5yo0.png)
 
 
 1. 在你的 Hexo 项目的 `source` 文件夹里增加 `_data` 文件夹。
+
 
 1. 在 `_data` 文件夹里新建 `links.yml` 文件。
 
@@ -132,6 +133,7 @@ Keep 主题对友链页面进行了样式优化，你只需按如下教程，便
    - ......  
 
    ```
+![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.411k8ek37x40.png)
 
 
 ## 平滑升级
