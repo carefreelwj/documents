@@ -111,13 +111,27 @@ Keep 主题对友链（links）页面进行了样式优化，你只需按如下�
 
 ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.o27c1lf5yo0.png)
 
+1. 创建友链（links）页面，在你的 Hexo 项目根目录下使用如下命令即可自动创建。
+   ```sh
+   $ hexo new page links
+   ```
+
+1. 在 Keep 主题配置文件 `_config.yml` 的 `menu` 配置项里面启用 `links`。
+   ```yaml
+   menu:
+     Home: /
+     Links: /links
+     # ......
+   ```
 
 1. 在你的 Hexo 项目的 `source` 文件夹里增加 `_data` 文件夹。
-
+   ::: tip 
+   如果已经有了 `_data` 文件夹，则忽略这一步。
+   :::
 
 1. 在 `_data` 文件夹里新建 `links.yml` 文件。
 
-1. 在 `links.yml` 里按如下格式增加友链。
+1. 在 `links.yml` 文件里按如下格式增加你的友链。
 
    ```yaml
    - name: XPoet
@@ -133,7 +147,8 @@ Keep 主题对友链（links）页面进行了样式优化，你只需按如下�
    - ......  
 
    ```
-![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.411k8ek37x40.png)
+1. 目录结构参考。
+   ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.411k8ek37x40.png)
 
 
 ## 平滑升级
