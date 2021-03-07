@@ -1,5 +1,8 @@
 # 快速开始
 
+在使用 Keep 主题之前，建议你先阅读 「 Easy Hexo 团队 」撰写的 [Hexo 教程](https://easyhexo.com/)，能帮助你快速入门 Hexo。
+
+
 ## 安装
 
 - 如果你在使用 Hexo 5.0 或更高版本，最简单的安装方式是通过 npm：

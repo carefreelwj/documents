@@ -1,5 +1,4 @@
 # 贡献准则 
-<!-- omit in toc -->
 
 很高兴您有兴趣为 Keep 参与代码贡献，在进行代码贡献之前，请务必花一些时间通读以下准则：
 
@@ -39,6 +38,7 @@
   - 使用一般现在时、祈使句语气
 
 <!-- omit in toc -->
+
 ## 贡献人员
 
 感谢所有为 Keep 主题做出贡献的人！
@@ -46,3 +46,36 @@
 <a href="https://github.com/XPoet/hexo-theme-keep/graphs/contributors">
   <img src="https://opencollective.com/hexo-theme-keep/contributors.svg?width=980">
 </a>
+
+## Keep To do
+
+### Completed 已完成
+
+- 响应式设计，适配平板/手机
+- 日间/夜间模式自由切换
+- 多种代码高亮方案
+- 多语言，目前仅支持中/英文
+- 内置多款评论插件
+- 支持全站文章搜索
+- 支持文章顶置
+- 代码块一键复制
+- TOC 目录结构
+- RSS 订阅
+- 网站 UV 和 PV 统计
+- 文章阅读次数、字数和阅读时长统计
+- 文章页大图查看器
+- 文章版权信息
+- 在线更改字号
+- 页面滚动进度条提示
+- 一键快速回到顶部
+- 支持 CDN
+- 支持 PJAX
+- 图片懒加载
+
+### Unfinished 未完成
+
+- 文章点赞功能
+- 代码块折叠
+- 在线更改字体
+- 打赏功能
+- ......
