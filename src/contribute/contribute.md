@@ -39,14 +39,6 @@
 
 <!-- omit in toc -->
 
-## 贡献人员
-
-感谢所有为 Keep 主题做出贡献的人！
-
-<a href="https://github.com/XPoet/hexo-theme-keep/graphs/contributors">
-  <img src="https://opencollective.com/hexo-theme-keep/contributors.svg?width=980">
-</a>
-
 ## Keep To do
 
 ### Completed 已完成
@@ -78,4 +70,18 @@
 - 代码块折叠
 - 在线更改字体
 - 打赏功能
+- 左上角增加 logo 配置
+- 头部菜单栏优化（透明、半透明）
+- 文章 meta 增加评论数量
+- 微信分享二维码生成
+- 分类页面优化（折叠、缩进、层级、字体大小、文章数量）
+- 增加 Disqus 评论系统
 - ......
+
+## 贡献人员
+
+感谢所有为 Keep 主题做出贡献的人！
+
+<a href="https://github.com/XPoet/hexo-theme-keep/graphs/contributors">
+  <img src="https://opencollective.com/hexo-theme-keep/contributors.svg?width=980">
+</a>
