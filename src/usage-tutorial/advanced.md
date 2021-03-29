@@ -170,6 +170,8 @@ Keep 主题对友链（links）页面进行了样式优化，你只需按如下�
 Keep 主题利用该功能实现了平滑升级的特性，使用步骤如下：
 将主题目录下的 `_config.yml` 文件复制到博客根目录下的 `/source/_data/` 中，并重命名为 `keep.yml`。如果 `source` 目录下没有 `_data` 文件夹请自行创建。
 
+![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.4qgvsy4ajt40.png)
+
 这两个文件的关系为 `keep.yml` 覆盖 `_config.yml`，也就是说，想要修改配置时，只需要修改 `keep.yml` 里的即可（修改 `_config.yml` 里的不会生效）。这样就实现了平滑升级，更新 Keep 主题时 `_config.yml` （可能）会更新，而你的主题配置数据保留在 `keep.yml` 中。
 
 ::: warning 注意
@@ -181,6 +183,17 @@ Keep 主题利用该功能实现了平滑升级的特性，使用步骤如下：
 有时候，同步 `/themes/keep/_config.yml` 和 `/source/_data/keep.yml` 两个配置文件里的内容也比较麻烦。因此，推荐使用代码对比工具进行查看，这样再进行同步就方便多了。例如 VS Code 自带的代码对比工具：
 ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.4c2gxoox3es0.png)
 
+
+::: warning 特别注意
+如果你升级了 Kepp 主题，主题配置文件 `_config.yml` 的 `version` 的值**必须**跟版本号保持一致！!
+
+例如：我将主题升级到 3.4.2 版本，那么主题配置文件 `_config.yml` 的 `version` 的值必须是 3.4.2 。如果你用了平滑升级，`/source/_data/keep.yml` 中的版本号需要你手动更改。
+
+```yaml
+# Keep version
+version: 3.4.2
+```
+:::
 
 ## 资源压缩
 
