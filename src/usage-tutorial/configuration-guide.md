@@ -692,7 +692,19 @@ lazyload:
 cdn:
   enable: false  
 ```  
-该配置项用于开启部分主题资源（JS文件、字体文件等）的 CDN 加速功能。
+该配置项用于开启部分主题资源（JS 文件、字体文件等）的 CDN 加速功能。
+
+::: tip CDN 原理
+Keep 的 CDN 加速原理是使用 jsDelivr 来加速托管在 NPM 上的 [hexo-theme-keep](https://www.npmjs.com/package/hexo-theme-keep) 包的资源。
+:::
+
+- 如果你的 Hexo 博客部署在 **GitHub Pages**（服务器在国外），**建议**你开启 CDN，打开页面会有较快的加载速度。
+  - JS 资源 CDN
+    ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.6y8hk0j82lk0.png)
+  - 字体文件 CDN
+    ![image](https://cdn.jsdelivr.net/gh/XPoet/image-hosting@master/keep-docs/image.3jfuinu7t7o0.png)
+  
+- 如果博客部署在 **Gitee Pages**、**阿里云**、**腾讯云**等国内服务器，则**不建议**开启 CDN。
 
 ## pjax   
 
