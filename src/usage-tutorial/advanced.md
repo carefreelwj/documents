@@ -216,11 +216,11 @@ Keep 主题的源码中，HTML、CSS、JavaScript、图片等资源文件是没�
 
 ### Travis CI
 
-coming soon...
+[如何使用 Travis CI 自动部署 Hexo 博客](https://juejin.cn/post/6943628312933564452)
 
 ### GitHub Action
 
-coming soon...
+[如何使用 GitHub Actions 自动部署 Hexo 博客](https://juejin.cn/post/6943895271751286821)
 
 
 
