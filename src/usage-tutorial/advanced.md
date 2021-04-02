@@ -212,6 +212,20 @@ Keep 主题的源码中，HTML、CSS、JavaScript、图片等资源文件是没�
    ```
 如果你使用插件时遇到了问题或者想进行更详细的设置，请查看插件的[文档](https://github.com/chenzhutian/hexo-all-minifier/blob/master/README.md)。
 
+## 图床问题 
+
+如果你在用 Hexo 等静态博客，正愁图片不知保存在哪里，那你可以试试 [PicX](https://github.com/XPoet/picx)。基于 GitHub API 开发的图床神器，图片外链使用 jsDelivr 进行 CDN 加速。
+
+免下载、免安装，打开网站即可直接使用。免费、稳定、高效。
+
+- [GitHub 仓库](https://github.com/XPoet/picx)
+
+- [PicX 官网](https://picx.xpoet.cn/)
+
+::: tip
+觉得好用就点个 Star 支持一下 ❤️
+:::
+
 ## 自动部署
 
 ### Travis CI
